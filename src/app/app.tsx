@@ -3,7 +3,7 @@ import { AppHeader } from "@/features/header";
 
 export function App() {
   return (
-    <div>
+    <div className="bg-amber-200">
       <AppHeader />
       <Outlet />
     </div>
