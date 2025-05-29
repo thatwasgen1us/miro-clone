@@ -3,7 +3,7 @@ import { AppHeader } from "@/features/header";
 
 export function App() {
   return (
-    <div className="bg-amber-200">
+    <div className="min-h-screen flex flex-col">
       <AppHeader />
       <Outlet />
     </div>
